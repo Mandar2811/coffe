@@ -150,13 +150,13 @@ letter-spacing: 4px;
 
 
 @media only screen and (max-width: 600px) {
-    .slider-img{
-        width: 80px;
-        height: 80px;
+    .slider-img {
+        width: 70px !important;
+        height: 70px !important;
     }
     .nav-list {
         font-size: 12px !important;
-        padding-left: 11px !important;
+        padding-left: 9px !important;
     }
     .starbucks-txt{
     font-size: 30px !important;
@@ -168,9 +168,9 @@ letter-spacing: 4px;
         font-size: 55px !important;
     }
     .second-back {
-        width: 55% !important;
+        width: 70% !important;
         position: relative;
-        right: -47% !important;
+        right: -33% !important;
         top: -285px !important;
     }
     .fra-1 {
@@ -181,12 +181,12 @@ letter-spacing: 4px;
         transform: rotate(-90deg);
         text-align: end;
         position: relative;
-        top: -830px;
+        top: -934px;
         left: 44%;
         font-size: 55px;
     }
     .fra {
-        top: -745px !important;
+        top: -850px !important;
         left: 32% !important;
         font-size: 55px !important;
     }
@@ -224,5 +224,16 @@ letter-spacing: 4px;
         z-index: 20;
         top: 3%;
         left: 85%;
+    }
+    .logo{
+        height:50px;
+        width: 50px;
+    }
+    .btn-1{
+        width: 160px !important;
+    }
+    .btn-2{
+        width: 160px !important;
+        margin-left: 10px !important;
     }
   }
