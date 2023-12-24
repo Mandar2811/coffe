@@ -1,6 +1,6 @@
 .main-bg{
     background-image: url('asset/main-bg.png');
-    height: 990px;
+    /* height: 990px; */
 }
 .logo{
     height: 60px;
@@ -135,15 +135,94 @@ letter-spacing: 4px;
     position: relative;
     z-index: 20;
     top: 30%;
-    left: -25%;
+    left: 0%;
 }
 .right{
     width: 20%;
     position: relative;
     z-index: 20;
     top: 17%;
-    left: 70%;
+    left: 100%;
 }
 .animate__animated.animate__bounce {
     --animate-duration: 2s;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .slider-img{
+        width: 80px;
+        height: 80px;
+    }
+    .nav-list {
+        font-size: 12px !important;
+        padding-left: 11px !important;
+    }
+    .starbucks-txt{
+    font-size: 30px !important;
+    }
+    .sec-para {
+        font-size: 55px !important;
+    }
+    .sec-para-bold {
+        font-size: 55px !important;
+    }
+    .second-back {
+        width: 55% !important;
+        position: relative;
+        right: -47% !important;
+        top: -285px !important;
+    }
+    .fra-1 {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        transform: rotate(-90deg);
+        text-align: end;
+        position: relative;
+        top: -830px;
+        left: 44%;
+        font-size: 55px;
+    }
+    .fra {
+        top: -745px !important;
+        left: 32% !important;
+        font-size: 55px !important;
+    }
+    .coffe-mug {
+        width: 80% !important;
+        position: relative;
+        z-index: 9;
+        left: -3% !important;
+        top: 220px !important;
+    }
+    .benas-img {
+        position: relative;
+        width: 45%;
+        z-index: 10;
+        left: 30% !important;
+        top: 25px;
+    }
+    .heart-img {
+        width: 25%;
+        position: relative;
+        left: 12% !important;
+        z-index: 11;
+        top: -170px;
+    }
+    .left {
+        width: 14% !important;
+        position: relative;
+        z-index: 20;
+        top: 18% !important;
+        left: -3% !important;
+    }
+    .right {
+        width: 14% !important;
+        position: relative;
+        z-index: 20;
+        top: 3%;
+        left: 85%;
+    }
   }
